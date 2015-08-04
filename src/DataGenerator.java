@@ -11,7 +11,7 @@ public class DataGenerator {
 	private String[] years = {"2010","2011","2012","2013","2014","2015","2016","2017"};
 	
 	private String[] termLetter = {"U","F","S"};
-	private double[] termLetterChance = {.02, .49, .49};
+	private double[] termLetterChance = {.05, .475, .475};
 	
 	private Decider<Integer>[][] department = new Decider[11][2];
 	

@@ -30,7 +30,7 @@ public class Decider<O> {
 	//What actually performs the action
 	public O zone(double in)
 	{
-		for(int i = 0; i < buckets.length - 1; i++)
+		for(int i = 0; i < buckets.length; i++)
 		{
 			if(in < buckets[i])
 				return this.output[i-1];
