@@ -24,8 +24,12 @@
 #### Function
 - Instantiated with two arrays
   - One array has the chances for each output
+    - Named input
+    - Data type must be double
     - Chances **must** collectively add up to 1
   - Other array has the outputs
+    - Named output
+    - Data type represented as O in generic labeling
   - Arrays **must** be the same length
     - Otherwise, an exception is thrown
 - Receives a number between 0 and 1 (inclusive)
